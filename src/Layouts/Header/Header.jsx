@@ -45,7 +45,7 @@ const Header = () => {
 		<div>
 			<h1 className={cx("title")}>Chào Mừng Bạn Đến Với ĐạtDEVTOOL ^_^!</h1>
 			<marquee direction="right" scrolldelay="2" className={cx("maqq")}>
-				Mọi thắc mắc liên hệ 0389.326.697
+				Mọi thắc mắc liên hệ 0389.326.697 nhé !!!
 			</marquee>
 			<div className={cx("form")}>
 				<TextArea
