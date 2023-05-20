@@ -11,3 +11,16 @@ body {
 	height: max-content;
 	min-height: 95vh;
 }
+
+@media (max-width: 812px) {
+	.ant-btn,
+	.ant-btn-lg {
+		height: 32px !important;
+	}
+
+	:where(.css-dev-only-do-not-override-ed5zg0).ant-space {
+		display: flex !important;
+		flex-wrap: wrap !important;
+		justify-content: center !important;
+	}
+}

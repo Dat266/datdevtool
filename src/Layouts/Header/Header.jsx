@@ -13,6 +13,8 @@ const Header = () => {
 	const { messageApi } = useContext(ValuesContext);
 	const refInput = useRef();
 
+	const onIcon = () => {};
+
 	const onCoppy = () => {
 		navigator.clipboard.writeText(values);
 		messageApi.success("Coppied");
@@ -58,6 +60,9 @@ const Header = () => {
 				/>
 				<div className={cx("btn")}>
 					<Space>
+						<Button onClick={onIcon} size="large" type="primary">
+							Icon
+						</Button>
 						<Button onClick={onCoppy} size="large" type="primary">
 							Coppy
 						</Button>

@@ -1,7 +1,7 @@
 .title {
 	color: rgb(251, 255, 0);
 	width: 100%;
-	min-width: 100vh;
+	max-width: 80vh;
 	text-align: center;
 	margin-top: 20px;
 	font-size: 30px;
@@ -30,4 +30,18 @@
 
 .btn {
 	text-align: right;
+}
+
+@media (max-width: 812px) {
+	.title {
+		margin: 20px auto;
+		font-size: 20px;
+		padding: 5px;
+	}
+
+	.form,
+	.ip {
+		width: 23rem;
+		font-size: 12px;
+	}
 }
